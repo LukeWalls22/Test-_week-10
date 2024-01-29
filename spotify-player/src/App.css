@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+
+.bgColor {
+  background-color: black;
+}
+
+.searchBar {
+  background-color: white !important;
+  color: #282c34 !important;
+  border-radius: 10px 0 0 10px !important;
+  
+}
+
+.searchBar::placeholder {
+  color: #969696 !important;
+  opacity: 1;
+}
+
+.searchBtn {
+  border-radius: 0 10px 10px 0 !important;
+}
